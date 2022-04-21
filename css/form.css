@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.outer{
+    width: 1200px;
+    margin: 0px auto;
+}
+.background{
+    float: left;
+    width: 100%;
+    background-image: url(../image/img2.jpg);
+   background-repeat: no-repeat;
+    height: auto;
+    font-family: 'Righteous', cursive;
+    font-variant: small-caps;
+  
+}
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    float: left;
+}
+.header h1{
+    text-align: center;
+    color:white;
+}
+.SignIn{
+width: 100%;
+background: rgba(14, 15, 14, 0.3);
+float: left;
+padding-top: 30px;
+height: 550px;
+}
+.SignIn label{
+    width: 100%;
+    display: block;
+    padding: 0px 0px 20px 20px;
+}
+.SignIn h2{
+    text-align: center;
+    color:white;
+    padding-bottom: 20px;
+}
+.SignInbtn{
+    width: 100%;
+    text-align: center;
+}
+.SignIn button{
+
+    padding: 10px 10px;
+    width: 150px;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    border: 0px;
+}
+.SignIn h5{
+    font-weight: lighter;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.SignIn h6{
+    font-weight: lighter;
+    text-align: center;
+    color:white;
+    padding-top: 20px;
+}
+.social{
+    text-align: center;
+  width:100%;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.SignUp{
+    width: 100%;
+    float: left;
+    background: rgba(14, 15, 14, 0.3);
+    padding-top: 30px;
+    height: 550px;
+}
+
+.SignUp label{
+    width: 100%;
+    display: block;
+    padding: 15px 0px 20px 20px;
+}
+.SignUp h2{
+    text-align: center;
+    color:white;
+}
+.SignUpbtn{
+    width: 100%;
+    text-align: center;
+}
+.SignUpbtn button{
+    padding: 10px 10px;
+    width: 150px;
+    font-weight: bold;
+    background-color: orange;
+    color: white;
+    border: 0px;
+    
+}
+input{
+    width: 80%;
+    border: 0px solid white;
+    border-bottom-width: 1px;
+    color: white;
+    background-color: transparent;
+}
+.footer{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
